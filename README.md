@@ -27,3 +27,5 @@ https://promisesaplus.com/
 - [Node.js Performance Tip of the Week: Managing Garbage Collection](https://strongloop.com/strongblog/node-js-performance-garbage-collection/)
 - http://stackoverflow.com/questions/11801545/node-js-memory-filling-up
 
+### IO.js
+http://www.infoworld.com/article/2855057/application-development/why-iojs-decided-to-fork-nodejs.html
