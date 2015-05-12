@@ -33,4 +33,5 @@
     - [Apache Mahout](https://mahout.apache.org/)
     - [Raccoon](https://github.com/guymorita/recommendationRaccoon)
     - [Product Recommender](https://github.com/lramsey/product-recommender)
+    - [Simple Recommendation Engine](http://www.toptal.com/algorithms/predicting-likes-inside-a-simple-recommendation-engine)
 
