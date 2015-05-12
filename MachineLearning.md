@@ -28,3 +28,7 @@
 - [Node.js Performance Tip of the Week: Managing Garbage Collection](https://strongloop.com/strongblog/node-js-performance-garbage-collection/)
 - [GridFS Using Mongoose – NodeJS](http://excellencenodejsblog.com/gridfs-using-mongoose-nodejs/)
 
+## Articles
+- [](http://stackoverflow.com/questions/24867777/recommendation-framework-for-nodejs-based-website)
+    - [Apache Mahout](https://mahout.apache.org/)
+
