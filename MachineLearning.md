@@ -35,3 +35,6 @@
     - [Product Recommender](https://github.com/lramsey/product-recommender)
     - [Simple Recommendation Engine](http://www.toptal.com/algorithms/predicting-likes-inside-a-simple-recommendation-engine)
 
+## Solr
+- [Mongo Solr](http://blog.mongodb.org/post/29127828146/introducing-mongo-connector)
+
