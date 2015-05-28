@@ -36,3 +36,8 @@ http://www.quora.com/What-are-good-tools-to-extract-key-words-and-or-topics-tags
 
 
 
+Lucene
+
+http://www.lucenetutorial.com/lucene-in-5-minutes.html
+
+http://lucenetuts.blogspot.com.ar/2013/09/tutorial-working-with-lucene-and-eclipse.html
