@@ -14,3 +14,10 @@ Solr TermVectorComponent
 
 http://wiki.apache.org/solr/TermVectorComponent
 
+
+### Otros Frameworks
+
+https://github.com/zelandiya/maui
+
+Maui se basa en wikipedia para inferir
+
