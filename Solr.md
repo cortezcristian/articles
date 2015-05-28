@@ -21,3 +21,7 @@ https://github.com/zelandiya/maui
 
 Maui se basa en wikipedia para inferir
 
+http://www.quora.com/What-are-good-tools-to-extract-key-words-and-or-topics-tags-from-a-random-paragraph-of-text
+
+
+
