@@ -3,8 +3,8 @@
 Solr Starts
 
 ```bash
-carrot2-3.8.0/solr-4.6.0/example$ java -Dsolr.solr.home=../../solr-home -Dsolr.clustering
-.enabled=true -jar start.jar
+solr-integration-strategies/carrot2-3.8.0/solr-4.6.0/example$ 
+java -Dsolr.solr.home=../../solr-home -Dsolr.clustering.enabled=true -jar start.jar
 ```
 
 Solr changed files
