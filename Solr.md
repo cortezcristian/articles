@@ -49,6 +49,7 @@ http://stackoverflow.com/questions/12098083/term-vector-frequency-in-lucene-4-0
 
 https://lucene.apache.org/core/2_9_4/api/all/org/apache/lucene/search/Similarity.html
 
+http://stackoverflow.com/questions/9189179/extract-tf-idf-vectors-with-lucene
 
 ```java
 import java.io.BufferedReader;
