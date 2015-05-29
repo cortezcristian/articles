@@ -44,3 +44,5 @@ http://lucenetuts.blogspot.com.ar/2013/09/tutorial-working-with-lucene-and-eclip
 
 
 https://lucene.apache.org/core/4_0_0/misc/org/apache/lucene/misc/HighFreqTerms.html
+
+http://stackoverflow.com/questions/12098083/term-vector-frequency-in-lucene-4-0
