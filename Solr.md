@@ -47,6 +47,8 @@ https://lucene.apache.org/core/4_0_0/misc/org/apache/lucene/misc/HighFreqTerms.h
 
 http://stackoverflow.com/questions/12098083/term-vector-frequency-in-lucene-4-0
 
+https://lucene.apache.org/core/2_9_4/api/all/org/apache/lucene/search/Similarity.html
+
 
 ```java
 import java.io.BufferedReader;
