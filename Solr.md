@@ -41,3 +41,6 @@ Lucene
 http://www.lucenetutorial.com/lucene-in-5-minutes.html
 
 http://lucenetuts.blogspot.com.ar/2013/09/tutorial-working-with-lucene-and-eclipse.html
+
+
+https://lucene.apache.org/core/4_0_0/misc/org/apache/lucene/misc/HighFreqTerms.html
