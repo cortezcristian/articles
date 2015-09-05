@@ -89,4 +89,11 @@ https://github.com/scrooloose/nerdcommenter#usage
 
 http://vimawesome.com/plugin/the-nerd-commenter
 
+Nerd Commenter
+```
+cm
+cu
+cc
+```
+
 
