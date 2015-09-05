@@ -3,6 +3,9 @@
 http://stackoverflow.com/a/6921029/467034
 ```
 Paste Ctrl+R "
+:di
+:display
+Paste Ctrl+R 0
 ```
 
 ### Macros
@@ -36,6 +39,7 @@ Ctrl+X Decrease
 :'<,'>!xclip -sel clip
 :.!xclip -o
 :.!xclip -o | html2jade
+:.!filget rocks
 ```
 
 ### Folding
@@ -54,4 +58,8 @@ Delete lines not containing the word function
 :g!/function/d 
 ```
 
+### Plugins
+```
+:'<,'>Tabularize /,
+```
 
