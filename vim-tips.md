@@ -11,10 +11,23 @@ qa
 5@a
 ```
 
-Marks
+### Marks
 ```
 ma
 'a
+```
+
+### Shortcuts
+```
+Visted locations
+:jumps
+Ctrl-O Jump back
+Ctrl+I Jump forward
+
+Increase Number and Letter
+Ctrl+A Inrease
+Ctrl+X Decrease
+~ Capitalize
 ```
 
 ### Selection to clipboard
