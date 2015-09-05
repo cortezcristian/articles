@@ -58,6 +58,17 @@ Delete lines not containing the word function
 :g!/function/d 
 ```
 
+### Colors
+https://github.com/altercation/vim-colors-solarized
+```
+:colorscheme hybrid
+:colorscheme hybrid-light
+
+set background=dark
+set background=light
+colorscheme solarized
+```
+
 ### Plugins
 ```
 :'<,'>Tabularize /,
