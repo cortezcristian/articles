@@ -63,3 +63,7 @@ Delete lines not containing the word function
 :'<,'>Tabularize /,
 ```
 
+https://github.com/tpope/vim-pathogen
+
+https://github.com/nodejs/node-v0.x-archive/wiki/vim-plugins
+
