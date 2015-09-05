@@ -78,3 +78,15 @@ https://github.com/tpope/vim-pathogen
 
 https://github.com/nodejs/node-v0.x-archive/wiki/vim-plugins
 
+http://stackoverflow.com/questions/14226390/how-to-use-nerd-commenter-for-vim-how-to-use-leader-key
+```
+" o es , o es \
+let mapleader=","
+set timeout timeoutlen=1500
+```
+
+https://github.com/scrooloose/nerdcommenter#usage
+
+http://vimawesome.com/plugin/the-nerd-commenter
+
+
