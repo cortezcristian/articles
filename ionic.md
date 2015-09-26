@@ -40,5 +40,13 @@ $ jarsigner -verbose -sigalg SH
 A1withRSA -digestalg SHA1 -keystore my-release-key.keystore /var/www/mynewapp/platforms/android/ant-build/MainActivity-release-unsigned.apk alias_name
 $ which android
 /home/crisboot/adt-bundle-linux/sdk/tools//android
-$ /home/crisboot/adt-bundle-linux/sdk/build-tools/21.1.2/zipalign HelloWorld-release-unsigned.apk HelloWorld.apk
+$ /home/crisboot/adt-bundle-l
+inux/sdk/build-tools/21.1.2/zipalign -v 4 /var/www/mynewappt/platforms/android/ant-build/MainActivity-release-unsigned.apk AppFinal.apk
+Verifying alignment of AppFinal.apk (4)...
+      50 META-INF/MANIFEST.MF (OK - compressed)
+...
+12974469 classes.dex (OK - compressed)
+Verification succesful
+$ ls
+AppFinal.apk
 ```
