@@ -7,6 +7,10 @@ $ ionic start mynewapp blank
 $ ionic serve
 ```
 
+### Splash & Icons
+
+http://blog.ionic.io/automating-icons-and-splash-screens/
+
 ## Build Android
 
 ```
