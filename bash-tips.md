@@ -16,7 +16,7 @@ find ./ -type f -exec sed -i 's#Test Game#Unit Tests#g' "{}" +;
 
 Global find and rename folders
 ```bash
-find ./root-backup/ -name .git -execdir mv {} backup-git \;
+find ./root-back/ -name .git -execdir mv {} backup-git \;
 ```
 
 PHP
