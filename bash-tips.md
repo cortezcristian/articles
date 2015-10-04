@@ -19,6 +19,11 @@ Global find and rename folders
 find ./root-back/ -name .git -execdir mv {} backup-git \;
 ```
 
+Split big files
+```bash
+split -a 4 -d -l 5000 bigfile.json
+```
+
 PHP
 
 
