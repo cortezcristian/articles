@@ -14,6 +14,10 @@ find ./ -type f -exec sed -i 's/5% off/10% off/g' "{}" +;
 find ./ -type f -exec sed -i 's#Test Game#Unit Tests#g' "{}" +;
 ```
 
+Global find and rename folders
+```bash
+find ./root-backup/ -name .git-backup -execdir mv {} backup-git \;
+```
 
 PHP
 
