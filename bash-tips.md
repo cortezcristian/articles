@@ -32,6 +32,14 @@ ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no example.com
 
 http://unix.stackexchange.com/questions/15138/how-to-force-ssh-client-to-use-only-password-auth
 
+
+```bash
+ssh -o PreferredAuthentications=keyboard-interactive,password -o PubkeyAuthentication=no root@cortezcristian.com
+```
+
+http://serverfault.com/questions/130346/ssh-use-only-my-password-ignore-my-ssh-key-dont-prompt-me-for-a-passphrase
+
+
 PHP
 
 
