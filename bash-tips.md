@@ -24,6 +24,14 @@ Split big files
 split -a 4 -d -l 5000 bigfile.json
 ```
 
+Avoid using -o PubkeyAuthentication=no
+
+```bash
+ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no example.com
+```
+
+http://unix.stackexchange.com/questions/15138/how-to-force-ssh-client-to-use-only-password-auth
+
 PHP
 
 
