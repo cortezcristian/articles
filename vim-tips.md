@@ -1,4 +1,10 @@
 
+### Replace last occurence
+http://stackoverflow.com/questions/11865845/replace-last-occurrence-in-line
+```
+:%s/.*\zsone/two/
+```
+
 ### Command Line Shortcuts
 http://stackoverflow.com/a/6921029/467034
 ```
