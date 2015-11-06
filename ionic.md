@@ -1,5 +1,10 @@
 # Ionic
 
+## Articles
+
+[Unit Testing Your Ionic Framework App](http://mcgivery.com/unit-testing-ionic-app/)
+[Using Admob With IonicFramework](https://blog.nraboy.com/2014/06/using-admob-ionicframework/)
+
 ## Starting ionic
 
 ```
