@@ -1,3 +1,9 @@
+Copy Recursively including hidden files
+```bash
+$ cp -rT /etc/skel /home/user
+```
+
+
 Search Freq
 ```bash
 $ find ./ -name freq* | xargs grep weeks
