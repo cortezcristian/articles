@@ -6,6 +6,7 @@
 - [Using Admob With IonicFramework](https://blog.nraboy.com/2014/06/using-admob-ionicframework/)
 - [Update Cordova: cordova platform update android](http://stackoverflow.com/questions/30393324/i-cant-install-cordova-plugins)
 - [AdMob Libraries](https://github.com/floatinghotpot/cordova-admob-pro/wiki/Difference-of-Plugin-IDs)
+- [Angular.js, Ionic apps](https://github.com/appfeel/admob-google-cordova/wiki/Angular.js,-Ionic-apps)
 
 ## Starting ionic
 
