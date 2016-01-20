@@ -102,4 +102,11 @@ cu
 cc
 ```
 
+Remove Tricks
+
+```
+http://stackoverflow.com/a/26908890/467034
+J
+```
+
 
