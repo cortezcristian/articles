@@ -77,3 +77,10 @@ http://stackoverflow.com/questions/20706559/php-debugging-how-to-configure-xdebu
 Hay que darle F5 al vim y dsp ir a la pagina y darle F5 de vuelta
 
 http://localhost/phpinfos.php
+
+
+# SSH
+
+```
+ssh user@cccc -R 10003:localhost:22
+```
