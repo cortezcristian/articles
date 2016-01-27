@@ -11,3 +11,10 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 execute pathogen#infect()
 ```
+
+3. Install plugins
+
+```
+cd ~/.vim/bundle
+git clone git://github.com/tpope/vim-abolish.git
+```
