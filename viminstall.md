@@ -17,4 +17,7 @@ execute pathogen#infect()
 ```
 cd ~/.vim/bundle
 git clone git://github.com/tpope/vim-abolish.git
+git clone https://github.com/scrooloose/nerdtree.git
+git clone git://github.com/airblade/vim-gitgutter.git
+
 ```
