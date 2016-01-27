@@ -13,7 +13,7 @@ execute pathogen#infect()
 set number
 set shiftwidth=2
 set background=dark
-colorscheme solarized
+colorscheme desert
 ```
 
 3. Install plugins
