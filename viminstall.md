@@ -1,13 +1,87 @@
 ## Everything
 
-1. Pathogen
+- 1. Pathogen
 ```
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vimbackuptemp && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-2. Add to ~/.vimrc
+- 2. Add to ~/.vimrc
 
+- 2.1 New clean version
+```
+" Globals
+" ------------------
+set smartindent
+set tabstop=4
+set shiftwidth=2
+set expandtab
+set number
+" for nerd commenter
+filetype plugin on
+
+" Shortcuts
+" ------------------
+set pastetoggle=<F2>
+"let mapleader=","
+"set timeout timeoutlen=1500
+map <F3> :NERDTreeToggle <cr>
+map <F2> :tabnext <cr>
+map <F5> :w <cr>
+map <F6> !xclip -sel clip <cr> u <cr>
+" use pbcopy in mac
+
+" Folding
+" ------------------
+set foldmethod=syntax
+set foldlevelstart=1
+let javaScript_fold=0         " JavaScript
+let perl_fold=1               " Perl
+let php_folding=1             " PHP
+let r_syntax_folding=1        " R
+let ruby_fold=1               " Ruby
+let sh_fold_enabled=1         " sh
+let vimsyn_folding='af'       " Vim script
+let xml_syntax_folding=1      " XML
+
+" Backups
+" ------------------
+" Directory backup
+" http://stackoverflow.com/questions/4824188/git-ignore-vim-temporary-files
+set backupdir=~/.vimbackuptemp
+set directory=~/.vimbackuptemp
+" set backupdir=./.backup,.,~/.vimbackuptemp
+" set directory=.,./.backup,~/.vimbackuptemp
+
+" Colors
+" ------------------
+" Color schema
+colorscheme hybrid
+"set background=dark
+"set background=light
+"colorscheme solarized
+"
+"set background=dark
+"syntax on
+"color mango
+
+" Plugin: vim-gitgutter
+" https://github.com/airblade/vim-gitgutter
+" ------------------
+nmap <Leader>ha <Plug>GitGutterStageHunk
+nmap <Leader>hu <Plug>GitGutterRevertHunk
+let g:gitgutter_override_sign_column_highlight = 0
+let g:gitgutter_sign_column_always = 1
+
+
+" Plugin: vim-pathogen
+" https://github.com/tpope/vim-pathogen
+" ------------------
+execute pathogen#infect()
+
+```
+
+- 2.2 Old Version
 ```
 "execute pathogen#infect()
 let g:php_xdebug=1 "1 to turn this on :D
@@ -165,7 +239,7 @@ execute pathogen#infect()
 
 ```
 
-3. Install plugins
+- 3. Install plugins
 
 ```
 cd ~/.vim/bundle
@@ -177,7 +251,7 @@ git clone https://github.com/pangloss/vim-javascript.git
 
 ```
 
-Just some:
+- 4. Plugins. Just some:
 
 ```
   crisboot@crisboot-Aspire-S3-391 ~/.vim/bundle$ ls
