@@ -83,6 +83,18 @@ nmap <Leader>hu <Plug>GitGutterRevertHunk
 let g:gitgutter_override_sign_column_highlight = 0
 let g:gitgutter_sign_column_always = 1
 
+" Plugin: syntastic
+" https://github.com/scrooloose/syntastic
+" ------------------
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['jshint']
+
 
 " Plugin: vim-pathogen
 " https://github.com/tpope/vim-pathogen
@@ -258,6 +270,7 @@ git clone https://github.com/scrooloose/nerdtree.git
 git clone git://github.com/airblade/vim-gitgutter.git
 git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/pangloss/vim-javascript.git
+git clone https://github.com/scrooloose/syntastic.git
 
 ```
 
