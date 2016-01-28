@@ -1,6 +1,7 @@
 ## Everything
 
 - 1. Pathogen
+
 ```
 mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vimbackuptemp && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
@@ -17,6 +18,8 @@ set tabstop=4
 set shiftwidth=2
 set expandtab
 set number
+set cursorline
+set encoding=utf-8
 " for nerd commenter
 filetype plugin on
 
