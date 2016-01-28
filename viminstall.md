@@ -3,11 +3,15 @@
 - 1. Pathogen
 
 ```
-mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vimbackuptemp && \
+mkdir -p ~/.vim/autoload ~/.vim/bundlep && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
 - 2. Add to ~/.vimrc
+```
+mkdir ~/.vimbackuptem
+touch ~/.vimrc
+```
 
 - 2.1 New clean version
 ```
