@@ -271,7 +271,7 @@ git clone git://github.com/airblade/vim-gitgutter.git
 git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/scrooloose/syntastic.git
-
+git clone git@github.com:tpope/vim-surround.git
 ```
 
 - 4. Plugins. Just some:
@@ -282,4 +282,16 @@ fonts                               nerdtree   tern_for_vim          vim-fugitiv
 jshint.vim                          node       vdebug                vim-gitgutter  vim-javascript  YouCompleteMe
 nerdcommenter                       syntastic  vim-abolish           vim-html2jade  vim-jsbeautify
 nerd-filetype-glyphs-fonts-patcher  tabular    vim-colors-solarized  vim-hybrid     vim-stylus
+```
+
+- 5. Shortcuts
+```
+Plugin: https://github.com/tpope/vim-surround
+cs'"   : Reemplaza ' por "
+
+Plugin: https://github.com/tpope/vim-abolish
+crs    :    coerce to snake_case
+crm    :    coerce to MixedCase
+crc    :    coerce to camelCase
+cru    :    coerce to UPPER_CASE
 ```
