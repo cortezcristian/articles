@@ -294,4 +294,19 @@ crs    :    coerce to snake_case
 crm    :    coerce to MixedCase
 crc    :    coerce to camelCase
 cru    :    coerce to UPPER_CASE
+
+Plugin: https://github.com/godlygeek/tabular
+:'<,'>Tabularize /:    -> tabularize for the specific character ":"
+
+Extra Magic
+J      :    move next line into current
+D      :    deletes until eol
+d0     :    deletes to beggining of line
+d3w    :    deletes 3 words
+~      :    change lowercase to uppercase
+di     :    show clipboard
+ctrl+R :    paste last from clipboard (also into command line)
+
+Magic with Regex
+:g!/random/d     : deletes all lines not containing "random"
 ```
