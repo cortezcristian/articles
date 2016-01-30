@@ -3,13 +3,14 @@
 - 1. Pathogen
 
 ```
-mkdir -p ~/.vim/autoload ~/.vim/bundlep && \
+sudo apt-get install curl vim git
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
 - 2. Add to ~/.vimrc
 ```
-mkdir ~/.vimbackuptem
+mkdir ~/.vimbackuptemp
 touch ~/.vimrc
 ```
 
