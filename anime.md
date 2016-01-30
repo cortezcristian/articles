@@ -1,5 +1,6 @@
 Anime
 ```
+Cowboy Bebop
 Kekkai Sensen
 7 deadly sins
 Magi
