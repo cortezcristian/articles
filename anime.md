@@ -16,7 +16,9 @@ Deadman Wonderland
 Gate
 Sword Art Online
 Attack on Titan
-Rokka - Braves of the Six Flowers-
+Rokka - Braves of the Six Flowers
+Another
+Ushio and Tora
 ```
 
 Movies
