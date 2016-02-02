@@ -109,4 +109,7 @@ http://stackoverflow.com/a/26908890/467034
 J
 ```
 
+Extra
+
+- [Multiple commands at once](http://vim.wikia.com/wiki/Multiple_commands_at_once)
 
