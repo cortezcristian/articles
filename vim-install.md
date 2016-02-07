@@ -282,6 +282,9 @@ git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/scrooloose/syntastic.git
 git clone git@github.com:tpope/vim-surround.git
+git clone https://github.com/maksimr/vim-jsbeautify.git
+cd vim-jsbeautify && git submodule update --init --recursive
+cd ..
 ```
 
 - 4. Plugins. Just some:
