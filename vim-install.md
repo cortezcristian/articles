@@ -19,8 +19,9 @@ touch ~/.vimrc
 " Globals
 " ------------------
 set smartindent
-set tabstop=4
+set tabstop=2
 set shiftwidth=2
+set softtabstop=2
 set expandtab
 set number
 set cursorline
@@ -95,6 +96,13 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['jshint']
+
+" Plugin: vim-jsbeautify
+" https://github.com/maksimr/vim-jsbeautify
+":call HtmlBeautify()
+let g:config_Beautifier = {}
+let g:config_Beautifier['html'] = {}
+let g:config_Beautifier['html'].indent_size = '2'
 
 
 " Plugin: vim-pathogen
