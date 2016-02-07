@@ -99,6 +99,7 @@ let g:syntastic_javascript_checkers = ['jshint']
 
 " Plugin: vim-jsbeautify
 " https://github.com/maksimr/vim-jsbeautify
+" ------------------
 ":call HtmlBeautify()
 let g:config_Beautifier = {}
 let g:config_Beautifier['html'] = {}
