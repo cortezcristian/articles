@@ -1,4 +1,11 @@
 
+CheatSheet
+
+| Shortcut / Cmd | Description | Plugin |
+|:-- | :-- | --- | 
+| `3\cu` | Uncomment 3 lines | NerdComenter
+
+
 ### Replace last occurence
 http://stackoverflow.com/questions/11865845/replace-last-occurrence-in-line
 ```
