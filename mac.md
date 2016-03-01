@@ -4,7 +4,10 @@ Installing Brew
 ```
 brew install git bash-completion
 
-
+brew install curl vim git
+brew install htop
+brew doctor
+brew install node
 
 git config --global core.editor /usr/bin/vim
 ```
