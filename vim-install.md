@@ -40,9 +40,17 @@ map <F2> :tabnext <cr>
 map <F5> :w <cr>
 map <F6> !xclip -sel clip <cr> u <cr>
 " use pbcopy in mac
+" map <F6> !pbcopy <cr> u <cr>
 " INCREMENTING ALPHA STRINGS WITH VIM : Ctrl+a Ctrl+x
 " http://blog.mozilla.org/jv/2011/01/12/incrementing-alpha-strings-with-vim/
 set nf=octal,hex,alpha
+" Remove unwanted spaces
+" http://vim.wikia.com/wiki/VimTip878
+autocmd BufWritePre * :%s/\s\+$//e
+" Show trailing whitespace:
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+" /\s\+$
+
 
 " Folding
 " ------------------
