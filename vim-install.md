@@ -318,6 +318,7 @@ git clone https://github.com/goatslacker/mango.vim
 
 # airline
 git clone https://github.com/vim-airline/vim-airline
+git clone git@github.com:powerline/fonts.git # powerline fonts
 ```
 
 - 4. Plugins. Just some:
