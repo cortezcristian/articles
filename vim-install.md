@@ -12,6 +12,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 mkdir ~/.vimbackuptemp
 touch ~/.vimrc
+touch ~/.tern-config # avoid warns
 ```
 
 - 2.1 New clean version
