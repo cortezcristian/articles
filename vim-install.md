@@ -314,11 +314,13 @@ cd ~/.vim/bundle/YouCompleteMe/
 
 # themes
 cd ~/.vim/colors
-git clone https://github.com/goatslacker/mango.vim 
+git clone https://github.com/goatslacker/mango.vim
+git clone git@github.com:w0ng/vim-hybrid.git
 
 # airline
 git clone https://github.com/vim-airline/vim-airline
 git clone git@github.com:powerline/fonts.git # powerline fonts
+git clone git@github.com:vim-airline/vim-airline-themes.git
 ```
 
 - 4. Plugins. Just some:
