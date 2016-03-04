@@ -302,6 +302,7 @@ git clone git://github.com/tpope/vim-fugitive.git
 git clone git://github.com/digitaltoad/vim-pug.git # ex vim-jade
 git clone https://github.com/scrooloose/syntastic.git
 git clone git@github.com:tpope/vim-surround.git
+git clone git@github.com:ternjs/tern_for_vim.git
 git clone https://github.com/maksimr/vim-jsbeautify.git
 cd vim-jsbeautify && git submodule update --init --recursive
 cd ..
