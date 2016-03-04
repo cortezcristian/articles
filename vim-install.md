@@ -308,6 +308,10 @@ cd ~/.vim/bundle/YouCompleteMe/third_party/
 git submodule update --init --recursive
 cd ~/.vim/bundle/YouCompleteMe/
 ./install.py --clang-completer --tern-completer
+
+# themes
+cd ~/.vim/colors
+git clone https://github.com/goatslacker/mango.vim 
 ```
 
 - 4. Plugins. Just some:
