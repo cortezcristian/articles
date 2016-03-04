@@ -302,6 +302,12 @@ git clone git@github.com:tpope/vim-surround.git
 git clone https://github.com/maksimr/vim-jsbeautify.git
 cd vim-jsbeautify && git submodule update --init --recursive
 cd ..
+git clone git@github.com:Valloric/YouCompleteMe.git
+# brew install cmake
+cd ~/.vim/bundle/YouCompleteMe/third_party/
+git submodule update --init --recursive
+cd ~/.vim/bundle/YouCompleteMe/
+./install.py --clang-completer --tern-completer
 ```
 
 - 4. Plugins. Just some:
