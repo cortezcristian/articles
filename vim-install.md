@@ -293,10 +293,13 @@ execute pathogen#infect()
 ```
 cd ~/.vim/bundle
 git clone git://github.com/tpope/vim-abolish.git
+git clone git://github.com/godlygeek/tabular.git
 git clone https://github.com/scrooloose/nerdtree.git
 git clone git://github.com/airblade/vim-gitgutter.git
 git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/pangloss/vim-javascript.git
+git clone git://github.com/tpope/vim-fugitive.git
+git clone git://github.com/digitaltoad/vim-pug.git # ex vim-jade
 git clone https://github.com/scrooloose/syntastic.git
 git clone git@github.com:tpope/vim-surround.git
 git clone https://github.com/maksimr/vim-jsbeautify.git
