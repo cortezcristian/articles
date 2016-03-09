@@ -1,5 +1,12 @@
 # Ionic
 
+### OSX
+-[How to submit iOS app to app store using Xcode](https://forum.ionicframework.com/t/how-to-submit-ios-app-to-app-store-using-xcode/1795/5)
+- [Submitting an App to the iOS App Store (Xcode)](https://www.youtube.com/watch?v=6uX7B8ZfMiw)
+- [How To Submit An App To Apple's App Store](https://www.youtube.com/watch?v=rRlOdp4uZoo)
+- [Get Published on Apple - Create and Upload a Distribution Certificate](https://www.youtube.com/watch?v=gRJA9qkMNhw)
+- [ERROR ITMS-90032:“Invalid Image Path - No image found at the path referenced under key 'CFBundleIcons':AppIcon40x40”](http://stackoverflow.com/a/35283545/467034)
+
 ## Services
 
 - http://a5hik.github.io/ng-sortable/#/
