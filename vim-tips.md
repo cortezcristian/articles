@@ -12,6 +12,25 @@ http://stackoverflow.com/questions/11865845/replace-last-occurrence-in-line
 :%s/.*\zsone/two/
 ```
 
+Add new line after N repetitions
+
+```
+:.s/\(\(\d\+ \)\{16\}\)/\1\r/gc
+```
+Turns this:
+
+```
+2 13 51 36 18 97 67 27 157 105 32 232 157 44 321 217 4 21 49 34 30 94 64 39 153 103 50 227 153 66 316 211 6 25 46 32 36 91 61 47 149 100 59 223 149 78 310 205
+```
+
+into this:
+```
+2 13 51 36 18 97 67 27 157 105 32 232 157 44 321 217 
+4 21 49 34 30 94 64 39 153 103 50 227 153 66 316 211 
+6 25 46 32 36 91 61 47 149 100 59 223 149 78 310 205
+```
+
+
 ### Command Line Shortcuts
 http://stackoverflow.com/a/6921029/467034
 ```
