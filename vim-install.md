@@ -17,6 +17,14 @@ touch ~/.tern-config # avoid warns
 
 - 2.1 New clean version
 ```
+" Important Config
+" http://nvie.com/posts/how-i-boosted-my-vim/
+set nocompatible
+" Plugin: vim-pathogen
+" https://github.com/tpope/vim-pathogen
+" ------------------
+execute pathogen#infect()
+
 " Globals
 " ------------------
 set smartindent
@@ -123,11 +131,68 @@ autocmd FileType jsx vnoremap <buffer> <c-f> :call RangeJsxBeautify()<cr>
 autocmd FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
 autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr
 
-
-" Plugin: vim-pathogen
-" https://github.com/tpope/vim-pathogen
+" Plugin: ctrlp.vim
+" https://github.com/ctrlpvim/ctrlp.vim
 " ------------------
-execute pathogen#infect()
+" http://kien.github.io/ctrlp.vim/
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Plugin: vim-airline
+" https://github.com/vim-airline/vim-airline
+" ------------------
+" http://vi.stackexchange.com/questions/3359/how-to-fix-status-bar-symbols-in-airline-plugin
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline_enable_branch     = 1
+let g:airline_enable_syntastic  = 1
+
+set statusline=AAA%F%m%r%h%w\
+set statusline+=%{fugitive#statusline()}\
+"set statusline+=[%{strlen(&fenc)?&fenc:&enc}]
+"set statusline+=\ [line\ %l\/%L]
+"set statusline+=%{rvm#statusline()}
+
+" http://vim.wikia.com/wiki/Displaying_status_line_always
+set laststatus=2
+set ttimeoutlen=50
+let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'kolor'
+set t_Co=256
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=1
+
+let g:airline#extensions#tabline#enabled = 1
+
+function! AirlineInit()
+    let g:airline_section_a = airline#section#create(['mode', '', 'branch', '%{fugitive#statusline()}'])
+    let g:airline_section_b = airline#section#create_left(['ffenc','file'])
+    let g:airline_section_c = airline#section#create(['%{getcwd()}'])
+endfunction
+"autocmd User AirlineAfterInit call AirlineInit()
+"
+"set guifont=Inconsolata\ for\ Powerline:h15
+set guifont=DejaVu\ Sans:s12
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+
+" Overrides
+" -----------------
+set background=dark
+colorscheme hybrid
+set tabstop=2 shiftwidth=2 expandtab
+" To fix pre-existing tabs
+" :%s/\t/  /g
+" Remove unwanted spaces
+" http://vim.wikia.com/wiki/VimTip878
+autocmd BufWritePre * :%s/\s\+$//e
+" Show trailing whitespace:
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+" /\s\+$
+
 
 ```
 
@@ -304,6 +369,7 @@ git clone git://github.com/digitaltoad/vim-pug.git # ex vim-jade
 git clone https://github.com/scrooloose/syntastic.git
 git clone git@github.com:tpope/vim-surround.git
 git clone git@github.com:ternjs/tern_for_vim.git
+git clone https://github.com/kien/ctrlp.vim.git 
 cd ~/.vim/bundle/tern_for_vim
 npm install
 cd ..
