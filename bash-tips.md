@@ -17,7 +17,7 @@ find ./ -type f -exec sed -i 's/5% off/10% off/g' "{}" +;
 
 OSX
 ```bash
-find . -type f|xargs perl -pi -e 's/\t/    /g
+find . -type f|xargs perl -pi -e 's/\t/    /g';
 ```
 
 
