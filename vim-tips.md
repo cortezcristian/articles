@@ -44,7 +44,9 @@ Paste Ctrl+R 0
 ```
 qa
 5@a
+:g/pattern/norm! @a
 ```
+- [Apply macro to certain lines](http://stackoverflow.com/a/390194/467034)
 
 ### Marks
 ```
