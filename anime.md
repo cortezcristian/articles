@@ -20,6 +20,7 @@ Attack on Titan
 Rokka - Braves of the Six Flowers
 Another
 Ushio and Tora
+Slum Dunk
 ```
 
 Movies
