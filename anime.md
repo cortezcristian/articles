@@ -19,6 +19,9 @@ Sword Art Online
 Attack on Titan
 Rokka - Braves of the Six Flowers
 Another
+kabaneri of the iron fortress
+reLIFE
+is it wrong to pick girls in a dungeon
 Ushio and Tora
 Slum Dunk
 ```
