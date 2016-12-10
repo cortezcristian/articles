@@ -19,6 +19,7 @@ Sword Art Online
 Attack on Titan
 Rokka - Braves of the Six Flowers
 Another
+Arslan Senki
 kabaneri of the iron fortress
 reLIFE
 is it wrong to pick girls in a dungeon
