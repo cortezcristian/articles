@@ -25,6 +25,8 @@ reLIFE
 is it wrong to pick girls in a dungeon
 Ushio and Tora
 Slum Dunk
+Mirai nikki
+Elfen laid
 ```
 
 Movies
