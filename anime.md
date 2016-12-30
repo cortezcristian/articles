@@ -5,7 +5,7 @@ Kekkai Sensen
 7 deadly sins
 Magi
 Tokyo Ghoul
-Erased
+Erased - boku dake ga inai machi
 Fate Stay Night/Zero
 Ajin
 Bleach
