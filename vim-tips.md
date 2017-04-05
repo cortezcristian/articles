@@ -76,6 +76,13 @@ Ctrl+X Decrease
 :.!filget rocks
 ```
 
+You can also paste by doing
+```
+"+p
+```
+
+http://unix.stackexchange.com/a/199222/92183
+
 ### Folding
 ```
 Unfold zR
