@@ -148,3 +148,15 @@ Extra
 
 - [Multiple commands at once](http://vim.wikia.com/wiki/Multiple_commands_at_once)
 
+
+## redirect output to quickfix
+
+ Quick fix example usage, see sending stdout to Quickfix http://stackoverflow.com/a/18119235/467034
+
+```
+:grep -nir "a" ./b-folder
+:copen
+:new|0read !grep -nir "a" ./b-folder
+```
+
+
