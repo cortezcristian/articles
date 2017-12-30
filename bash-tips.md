@@ -89,3 +89,27 @@ http://localhost/phpinfos.php
 ```
 ssh user@cccc -R 10003:localhost:22
 ```
+
+# grep
+
+Global Regular Expression Prompt
+Matches repetition `a{3}|b`, then concatenation `aaa|b` and then alternation
+`aaa` or `b`. The rules can be override with parentesis. What do i use often (that's why i install gnu grep on mac cause i'm use to)
+
+Search recursiveley
+```
+$ grep -nir "sample" ./folder
+```
+
+Got file names only (this is faster)
+```
+$ grep -lir "sample" ./folder
+```
+
+To demostrate you can run the counts
+```
+$ grep -nirc "sample" ./folder
+$ grep -lirc "sample" ./folder
+```
+
+
