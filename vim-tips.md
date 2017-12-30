@@ -30,6 +30,16 @@ into this:
 6 25 46 32 36 91 61 47 149 100 59 223 149 78 310 205
 ```
 
+### Delete or change till occurence
+
+```
+dT0 -> deletes from the cursor to begining of line
+dt$ -> from cursor to eol
+cw -> deletes next word and let you keep editing
+ci" -> removes the text inside " and let you edit
+cit -> remvoes text inside html tag and let you edit
+```
+
 
 ### Command Line Shortcuts
 http://stackoverflow.com/a/6921029/467034
