@@ -106,11 +106,20 @@ Got file names only (this is faster)
 $ grep -lir "sample" ./folder
 ```
 
-To demostrate you can run the counts
+To demostrate you can run the counts `-c`
 ```
 $ grep -nirc "sample" ./folder
 $ grep -lirc "sample" ./folder
 ```
 
 The `-L` option does the opposite of `-l`, shows files not matching.
+
+Put a stop to the matchings
+grep -m 4 "input" templates/*
+
+Using grep to count files
+
+``` 
+$ ls templates |grep html | grep -v event | wc -l
+```
 
