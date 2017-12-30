@@ -112,4 +112,5 @@ $ grep -nirc "sample" ./folder
 $ grep -lirc "sample" ./folder
 ```
 
+The `-L` option does the opposite of `-l`, shows files not matching.
 
