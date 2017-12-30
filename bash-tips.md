@@ -123,3 +123,14 @@ Using grep to count files
 $ ls templates |grep html | grep -v event | wc -l
 ```
 
+Match exact word
+
+```
+grep -nir "\bicon\b" templates
+grep -wir icon templates
+```
+
+Match exact line `-X`
+
+
+
