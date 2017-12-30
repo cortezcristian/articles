@@ -40,6 +40,16 @@ Paste Ctrl+R "
 Paste Ctrl+R 0
 ```
 
+Copy a word and save it under `"b` to paste it in the command prompt, with the cursor on the start of word
+
+```
+"byw
+```
+
+Then go to the prompt `:` and press Ctrl+R b, and there you go.
+
+
+
 ### Macros
 ```
 qa
