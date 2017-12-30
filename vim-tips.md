@@ -60,6 +60,12 @@ Then go to the prompt `:` and press Ctrl+R b, and there you go.
 
 
 
+### Repeat
+
+- `;` repeats movements
+- `.` repeats actions
+
+
 ### Macros
 ```
 qa
