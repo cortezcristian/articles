@@ -132,5 +132,15 @@ grep -wir icon templates
 
 Match exact line `-X`
 
-
+In example utitlity i crafted
+```
+cat detect-bad-merge.sh 
+#!/bin/bash
+errors=$( grep -r ">>>>>>" frontend/src app |wc -l |tr -d ' ' )
+if [ "$errors" -gt "0" ]; then
+  echo "${RED}[FAIL] Bad merge found ($errors)"
+else
+  echo "${GREEN}[ OK ] No bad merges, check passed ($errors)"
+fi
+```
 
