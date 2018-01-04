@@ -137,6 +137,16 @@ set background=light
 colorscheme solarized
 ```
 
+### Non-greedy
+
+``` 
+find $sec -type f -exec sed -i "s#customers#companies#g" "{}" +;
+```
+
+If we want to strip the first part `:%s/.*#/new-replacement-here/` would be a problem basically we use `\{-}` instead of `*` so we change to `:%s/.\{-}#/new-replacement-here/`.
+
+The same can happen if you want to change the last part `:%s/#.*//` would be a problem, basically we can use `%s/.*\zs#.*/',/c`
+
 ### Plugins
 ```
 :'<,'>Tabularize /,
